@@ -49,7 +49,7 @@ The more things you have running on a system, the more things can be exploited b
 ```
 systemctl list-unit-files
 rpm -qa
-netstat -tulpn
+ss -tulpn ; ss replaces netstat
 ```
 
 ❗ If you are not sure what you can disable, look below. In this lab, do **not** disable the ```sshd``` service.
